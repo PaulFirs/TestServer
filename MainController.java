@@ -15,7 +15,7 @@ import ru.pfirs.service.ArticleService;
 @RequestMapping("/blog")
 public class MainController {
 
-    @Autowired
+    @Autowired 
     private ArticleService service;
 
     @RequestMapping
